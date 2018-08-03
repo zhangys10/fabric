@@ -11,7 +11,7 @@ public class SpringCloudDemoApplication {
 
 	@RequestMapping("/")
     public String home() {
-        return "Hello, This is runing in Docker on AWS";
+        return "Hello, Its me!";
     }
 	
 	public static void main(String[] args) {
