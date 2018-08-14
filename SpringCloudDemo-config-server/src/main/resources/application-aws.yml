@@ -1,0 +1,5 @@
+eureka:
+  client:
+    region: ap-southeast-1
+    serviceUrl:
+      defaultZone: http://52.77.35.55:10081/eureka/

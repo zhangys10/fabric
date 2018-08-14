@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 9081
 spring:
   application:
     name: config
@@ -7,4 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:zhangys10/fabric-config.git
+          uri: https://github.com/zhangys10/fabric-config.git
+          clone-on-start: true
