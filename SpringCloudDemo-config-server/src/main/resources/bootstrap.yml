@@ -1,0 +1,11 @@
+server:
+  port: 9081
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhangys10/fabric-config.git
+          clone-on-start: true

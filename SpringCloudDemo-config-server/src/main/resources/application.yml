@@ -1,0 +1,3 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
