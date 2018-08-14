@@ -1,0 +1,10 @@
+server:
+  port: 10081
+spring:
+  application:
+    name: discover-server
+    
+  cloud:
+    config:
+      name: discovery-server
+      uri: http://localhost:9081
